@@ -56,7 +56,9 @@ function App() {
       break;
     case '':
     default:
-      page = <Home/>;
+      page = <Home
+        link={link[1]}
+      />;
       break;
   }
 

@@ -1,23 +1,30 @@
 $blue: rgb(17, 116, 238);
 
+@media screen and (max-width: 900px) {
+  .nav-span {
+    display: none;
+  }
+
+  .nav-ul {
+    justify-content: space-around;
+  }
+}
+
 .nav-bar {
   overflow: hidden;
   background-color: #333;
   z-index: 100;
   position: sticky;
   top: 0;
-  height: 60px;
 }
 
 .nav-ul {
   list-style-type: none;
   display: flex;
   height: 100%;
-
 }
 
 .nav-item {
-
   a {
     display: block;
     color: white;
