@@ -1,0 +1,43 @@
+$blue: rgb(17, 116, 238);
+
+.nav-bar {
+  overflow: hidden;
+  background-color: #333;
+  z-index: 100;
+  position: sticky;
+  top: 0;
+  height: 60px;
+}
+
+.nav-ul {
+  list-style-type: none;
+  display: flex;
+  height: 100%;
+
+}
+
+.nav-item {
+
+  a {
+    display: block;
+    color: white;
+    text-align: center;
+    height: 100%;
+
+    padding: 14px 16px;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+
+    &:hover {
+      background-color: #111;
+      color: $blue;
+    }
+  }
+}
+
+.nav-icon {
+  margin: 0 7px;
+  font-size: 15px;
+}

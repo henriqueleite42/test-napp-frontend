@@ -1,0 +1,37 @@
+.listItem-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+.listItem-main .listItem-info {
+  display: -ms-grid;
+  display: grid;
+}
+
+.listItem-main .listItem-info span:last-child {
+  font-size: 10px;
+}
+
+.listItem-main .listItem-buttons {
+  display: -ms-grid;
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 5px;
+}
+
+@media screen and (min-width: 900px) {
+  .listItem-main .listItem-buttons div {
+    -ms-grid-row: 1;
+        grid-row-start: 1;
+    grid-row-end: 2;
+  }
+}
+/*# sourceMappingURL=ListItem.css.map */

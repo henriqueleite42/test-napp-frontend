@@ -1,0 +1,42 @@
+.input-main {
+  width: 100%;
+  text-align: left;
+  margin: 12px 0;
+}
+
+.input-main .input-input {
+  line-height: 2em;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  border: none;
+  outline: none;
+  margin-bottom: 5vh;
+  border-bottom: 2px solid #d0d0d0;
+}
+
+.input-main .input-input:not(.read-only):focus {
+  border-bottom: 2px solid #1174ee;
+}
+
+.input-active > label {
+  color: #1174ee;
+}
+
+.input-active > input::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.input-active > input:-ms-input-placeholder {
+  opacity: 0;
+}
+
+.input-active > input::-ms-input-placeholder {
+  opacity: 0;
+}
+
+.input-active > input::placeholder {
+  opacity: 0;
+}
+/*# sourceMappingURL=Input.css.map */

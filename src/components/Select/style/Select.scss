@@ -1,0 +1,43 @@
+$blue: rgb(17, 116, 238);
+$grey: #d0d0d0;
+
+.select-main {
+  text-align: left;
+  margin: 12px 0;
+  width: 100%;
+
+  .select-header {
+    margin-bottom: 10px;
+  }
+
+  .select-select {
+    width: 100%;
+    line-height: 2em;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    margin-bottom: 5vh;
+    border-bottom: 2px solid $grey;
+
+    &:not(.read-only) {
+      &:focus {
+        border-bottom: 2px solid $blue;
+      }
+    }
+
+    option > span {
+      font-size: 10px;
+    }
+  }
+}
+
+.input-active {
+  > label {
+    color: $blue;
+  }
+
+  > input::placeholder {
+    opacity: 0;
+  }
+}

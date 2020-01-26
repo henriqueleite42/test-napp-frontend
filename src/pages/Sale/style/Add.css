@@ -1,0 +1,180 @@
+@media screen and (max-width: 900px) {
+  body {
+    overflow-y: auto;
+  }
+  body .form-content {
+    padding: 0 10px !important;
+  }
+  body .form-footer, body .form-buttons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute !important;
+        justify-content: space-around !important;
+  }
+  body .form-footer {
+    margin-top: 10px;
+  }
+  body .form-buttons {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .sale-form-content > div {
+    margin-bottom: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .sale-form-content > div > .select-main {
+    width: 70%;
+    min-width: 250px;
+  }
+}
+
+.sale-form-content .select-main, .sale-form-content .input-main {
+  margin: 0;
+}
+
+.sale-form-content .sale-products {
+  display: block;
+}
+
+@media screen and (max-width: 900px) {
+  .sale-form-content .sale-products {
+    margin-top: 25px;
+  }
+}
+
+.sale-form-content .sale-products .sale-item {
+  display: -ms-grid;
+  display: grid;
+  grid-column-gap: 20px;
+  border: 2px solid #e5e5e5;
+  padding: 25px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 900px) {
+  .sale-form-content .sale-products .sale-item {
+    grid-row-gap: 20px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .sale-form-content .sale-products .sale-item {
+    grid-row-gap: 10px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .sale-form-content .sale-products .sale-item > div:nth-child(4), .sale-form-content .sale-products .sale-item > div:nth-child(3), .sale-form-content .sale-products .sale-item > div:nth-child(2) {
+    -ms-grid-row: 1;
+        grid-row-start: 1;
+    grid-row-end: 2;
+  }
+  .sale-form-content .sale-products .sale-item > div:nth-child(1) {
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 4;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .sale-form-content .sale-products .sale-item > div:nth-child(2) {
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 2;
+  }
+  .sale-form-content .sale-products .sale-item > div:nth-child(3) {
+    -ms-grid-column: 2;
+        grid-column-start: 2;
+    grid-column-end: 3;
+  }
+  .sale-form-content .sale-products .sale-item > div:nth-child(4) {
+    -ms-grid-column: 3;
+        grid-column-start: 3;
+    grid-column-end: 4;
+  }
+  .sale-form-content .sale-products .sale-item > div:nth-child(5) {
+    -ms-grid-column: 4;
+        grid-column-start: 4;
+    grid-column-end: 5;
+    -ms-grid-row: 1;
+        grid-row-start: 1;
+    grid-row-end: 3;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .sale-form-content .sale-products .sale-item > div:nth-child(4), .sale-form-content .sale-products .sale-item > div:nth-child(3), .sale-form-content .sale-products .sale-item > div:nth-child(2) {
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 3;
+  }
+  .sale-form-content .sale-products .sale-item > div:nth-child(1) {
+    -ms-grid-row: 1;
+        grid-row-start: 1;
+    grid-row-end: 2;
+    display: -ms-grid;
+    display: grid;
+    grid-row-gap: 10px;
+  }
+  .sale-form-content .sale-products .sale-item > div:nth-child(2) {
+    -ms-grid-row: 3;
+        grid-row-start: 3;
+    grid-row-end: 4;
+  }
+  .sale-form-content .sale-products .sale-item > div:nth-child(3) {
+    -ms-grid-row: 4;
+        grid-row-start: 4;
+    grid-row-end: 5;
+  }
+  .sale-form-content .sale-products .sale-item > div:nth-child(4) {
+    -ms-grid-row: 5;
+        grid-row-start: 5;
+    grid-row-end: 6;
+  }
+  .sale-form-content .sale-products .sale-item > div:nth-child(5) {
+    -ms-grid-row: 1;
+        grid-row-start: 1;
+    grid-row-end: 2;
+  }
+}
+
+.proft {
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  border-radius: 5px;
+  max-height: 25px;
+  min-height: 25px;
+  height: 25px;
+  min-width: 62px;
+  max-width: 62px;
+  width: 62px;
+  background-color: #e5e5e5;
+  color: #e5e5e5;
+}
+
+.proft.bad {
+  color: white;
+  background-color: #e71515;
+}
+
+.proft.good {
+  color: white;
+  background-color: #16c916;
+}
+
+.proft.great {
+  color: white;
+  background-color: #1174ee;
+}
+/*# sourceMappingURL=Add.css.map */

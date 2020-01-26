@@ -1,0 +1,31 @@
+.list-main {
+  width: 90%;
+  max-width: 960px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.list-main .list-header {
+  width: 100%;
+  padding: 24px 0;
+}
+
+.list-main .list-header h2 {
+  text-align: center;
+}
+
+.list-main .list-content {
+  padding: 16px 48px;
+}
+/*# sourceMappingURL=List.css.map */

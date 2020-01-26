@@ -1,0 +1,50 @@
+.select-main {
+  text-align: left;
+  margin: 12px 0;
+  width: 100%;
+}
+
+.select-main .select-header {
+  margin-bottom: 10px;
+}
+
+.select-main .select-select {
+  width: 100%;
+  line-height: 2em;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
+  outline: none;
+  margin-bottom: 5vh;
+  border-bottom: 2px solid #d0d0d0;
+}
+
+.select-main .select-select:not(.read-only):focus {
+  border-bottom: 2px solid #1174ee;
+}
+
+.select-main .select-select option > span {
+  font-size: 10px;
+}
+
+.input-active > label {
+  color: #1174ee;
+}
+
+.input-active > input::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.input-active > input:-ms-input-placeholder {
+  opacity: 0;
+}
+
+.input-active > input::-ms-input-placeholder {
+  opacity: 0;
+}
+
+.input-active > input::placeholder {
+  opacity: 0;
+}
+/*# sourceMappingURL=Select.css.map */

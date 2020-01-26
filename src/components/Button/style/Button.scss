@@ -1,0 +1,55 @@
+$green: rgb(22, 201, 22);
+$darkGreen: rgb(11, 169, 11);
+$red: rgb(231, 21, 21);
+$darkRed: rgb(198, 3, 3);
+$blue: rgb(17, 116, 238);
+$darkBlue: rgb(11, 102, 214);
+
+.button-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .button-button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 7vh;
+    min-width: 100px;
+    height: 5vh;
+    min-height: 33px;
+    outline: none;
+    cursor: pointer;
+    color: white;
+
+    &.tiny {
+      width: 5vh;
+      min-width: 30px;
+      padding: 3px;
+    }
+
+    &.green {
+      background-color: $green;
+
+      &:hover {
+        background-color: $darkGreen;
+      }
+    }
+
+    &.red {
+      background-color: $red;
+
+      &:hover {
+        background-color: $darkRed;
+      }
+    }
+
+    &.blue {
+      background-color: $blue;
+
+      &:hover {
+        background-color: $darkBlue;
+      }
+    }
+  }
+}

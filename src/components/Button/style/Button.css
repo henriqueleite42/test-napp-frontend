@@ -1,0 +1,55 @@
+.button-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.button-main .button-button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 7vh;
+  min-width: 100px;
+  height: 5vh;
+  min-height: 33px;
+  outline: none;
+  cursor: pointer;
+  color: white;
+}
+
+.button-main .button-button.tiny {
+  width: 5vh;
+  min-width: 30px;
+  padding: 3px;
+}
+
+.button-main .button-button.green {
+  background-color: #16c916;
+}
+
+.button-main .button-button.green:hover {
+  background-color: #0ba90b;
+}
+
+.button-main .button-button.red {
+  background-color: #e71515;
+}
+
+.button-main .button-button.red:hover {
+  background-color: #c60303;
+}
+
+.button-main .button-button.blue {
+  background-color: #1174ee;
+}
+
+.button-main .button-button.blue:hover {
+  background-color: #0b66d6;
+}
+/*# sourceMappingURL=Button.css.map */
