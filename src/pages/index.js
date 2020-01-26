@@ -11,7 +11,7 @@ const Home = () => {
   });
 
   useEffect(() => {
-    axios.get(makePath([], 'back'), { headers: { 'Access-Control-Allow-Origin': '*' } })
+    axios.get(makePath([], 'back'))
     .then(res => {
       if (res.status === 200) {
         setInfo(res.data)
