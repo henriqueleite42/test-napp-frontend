@@ -1,5 +1,5 @@
 !node_modules/react-dev-utils/webpackHotDevClient.js
 
-node_modules
+node_modules/*
 .eslintrc.json
 .env
