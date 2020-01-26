@@ -1,5 +1,3 @@
-!node_modules/react-dev-utils/*
-
 .eslintrc.json
 .env
 node_modules
