@@ -1,7 +1,5 @@
 !node_modules/react-dev-utils/*
-!test/teste.js
 
 .eslintrc.json
 .env
 node_modules
-test
